@@ -13,21 +13,21 @@ body {
 }
 
 nav {
-    background-color: rgba(0, 0, 0, 0.85);
+    background-color: #1c1e21;
     text-align: center;
 }
 nav a {
     text-decoration: none;
     display: inline-block;
     padding: 5vh 20px;
-    color: #8d8d8d;
+    color: rgb(128, 130, 133);
     -webkit-transition: all 150ms cubic-bezier(0.420, 0.000, 0.580, 1.000); 
        -moz-transition: all 150ms cubic-bezier(0.420, 0.000, 0.580, 1.000); 
          -o-transition: all 150ms cubic-bezier(0.420, 0.000, 0.580, 1.000); 
             transition: all 150ms cubic-bezier(0.420, 0.000, 0.580, 1.000);
 }
 nav a:hover {
-    color: #fceb1d;
+    color: #ffd133;
 }
 nav a img {
     max-width: 6vw;
